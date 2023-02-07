@@ -1,0 +1,49 @@
+.container{
+    max-width: 100%;
+}
+header{
+    color: blueviolet;
+}
+.navbar-nav{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    margin-top: 20px;
+}
+main.container{
+    background-color: blue;
+    
+}
+.jumbotron{
+    background-color: white;
+    color: violet;
+}
+.jumbotron h1{
+    color: blue;
+    
+}
+.footer {
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #99979c;
+    background-color: #2a2730;
+    margin-top: 30px;
+    opacity: 80%;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:focus,
+.footer a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+.footer p {
+    margin-bottom: 0rem !important;
+}

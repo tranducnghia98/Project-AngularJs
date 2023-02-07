@@ -1,0 +1,22 @@
+
+<div class="row ">
+  <div class="col-6 my-0 mx-auto" >
+    <form ng-hide="IsLogin" id="form-login" name="login">
+      <h1><i class="fa-solid fa-user"></i> Đăng Nhập</h1>
+      <div class="form-group">
+        <label for="usename">Tên Đăng Nhập</label>
+        <input ng-model="user" required placeholder="Tên Đăng Nhập" class="form-control" type="text" name="usename">
+
+      </div>
+      <div class="form-group">
+        <label for="usename">Mật Khẩu</label>
+        <input ng-model="pass" required placeholder="Mật Khẩu" class="form-control" type="password" name="password">
+      </div>
+      <a href="layout.html"><button ng-click="Login()" class="btn btn-primary" type="button">Đăng Nhập</button>
+      </a>
+
+     
+    </form>
+  </div>
+  
+</div>

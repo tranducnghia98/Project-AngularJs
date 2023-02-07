@@ -1,0 +1,13 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "fake rest api",
+  "main": "Subjects.js",
+  "scripts": {
+    "json:server": "json-server --watch Students.json" },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

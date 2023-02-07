@@ -1,0 +1,73 @@
+{
+  "listStudent": [
+    {
+      "username": "teonv",
+      "password": "1",
+      "fullname": "Nguyễn Văn Tèo",
+      "email": "teonv@fpt.edu.vn",
+      "gender": "true",
+      "birthday": "1995-12-21",
+      "id": 1
+    },
+    {
+      "username": "pheonv",
+      "password": "iloveyou",
+      "fullname": "Nguyễn Văn Chí Phèo",
+      "email": "pheonv@fpt.edu.vn",
+      "gender": "true",
+      "birthday": "1985-10-11",
+      "schoolfee": "2500000",
+      "marks": "0",
+      "id": 2
+    },
+    {
+      "username": "nopt",
+      "password": "iloveyou",
+      "fullname": "Phạm Thị Nở",
+      "email": "nopt@fpt.edu.vn",
+      "gender": "false",
+      "birthday": "1993-05-15",
+      "schoolfee": "2000000",
+      "marks": "0",
+      "id": 3
+    },
+    {
+      "username": "a",
+      "password": "2",
+      "fullname": "tran duc nghia3",
+      "email": "nfansds@gmail.com",
+      "gender": "nam",
+      "schoolfee": "110000",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "username": "b",
+      "password": "1",
+      "email": "qưe",
+      "gender": "nam",
+      "schoolfee": "13333333"
+    },
+    {
+      "id": 6,
+      "email": "sáasasas"
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "username": "nghia",
+      "password": "a",
+      "fullname": "tran duc nghia",
+      "email": "nfansds@gmail.com",
+      "gender": "nam",
+      "id": 10
+    }
+  ]
+}

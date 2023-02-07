@@ -1,0 +1,35 @@
+<div class="col-dm-8" ng-hide="!IsLogin" style="background-color: antiquewhite;">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>UseName</th>
+        <th>PassWord</th>
+        <th>FullName</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>BirthDay</th>
+        <th>Schoolfee</th>
+        <th>Mark</th>
+      </tr>
+      <!-- ng-hide="u.id != infor.id -->
+      <tr ng-repeat="u in datas" ng-hide="u.id != infor.id" ng-init="u.input=true">
+        <td>{{u.id}}</td>
+        <td>{{u.username}}</td>
+        <td>{{u.password}}</td>
+        <td>{{u.fullname}}</td>
+        <td>{{u.email}}</td>
+        <td>{{u.gender}}</td>
+        <td>{{u.birthday}}</td>
+        <td>{{u.schoolfee}}</td>
+        <td>{{u.marks}}</td>
+
+        <td><button class="btn btn-danger" ng-click=" delete($index)" type="button">Xóa</button></td>
+
+
+      </tr>
+    </thead>
+  </table>
+
+</div>
+</div>
